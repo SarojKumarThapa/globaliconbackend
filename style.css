@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.iconimg {
+    height: 25px;
+    width: auto;
+    display: inherit;
+}
+
+.iconimg img {
+    height: 100%;
+    width: auto;
+}
+
+.datatables {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.icons img {
+    height: 20px;
+}
+
+
+.custom-image-type::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-image-type {
+    color: transparent;
+}
+  
+.custom-image-type::before {
+    content: "Upload Photo";
+    color: white;
+    display: inline-block;
+    background-color: #28a745;
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-size: 10pt;
+    font-weight: normal;
+    align-items: center;
+    text-align: center;
+}
+
+.thumbnail-image-preview {
+    height: 150px;
+    border: 1px solid black;
+}
+
+.thumbnail-image-preview img {
+    height: 100%;
+    width: auto;
+}
+
+.qrcode-preview {
+    height: 150px;
+    border: 1px solid black;
+}
+
+.center-text h2 {
+    font-family: 'Lobster', cursive;
+    color: #F2531C;
+}
+
+.center-text h4 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #114688;
+}
+
+.center-text h3 {
+    color: #F2531C;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+}
+
+.stamp::after {
+    content: "校印";
+    margin-left: 40px;
+}
+
+.signature::after {
+    content: "校長";
+    margin-left: 40px;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #114688;
+    font-family: 'Lobster', cursive;
+}
+
+.imgstamp {
+    position: absolute;
+    top: -45px;
+    left: -120px;
+}
+
+.imgsig {
+    position: absolute;
+    top: -30px;
+    left: -110px;
+}
+
+.certificateimg {
+    text-align: center;
+}
+
+.certificatesig {
+    position: absolute;
+    top: 75px;
+    left: 45px;
+}
+
+.certificatestamp {
+    position: absolute;
+    left: 115px;
+    top: 70px;
+}
